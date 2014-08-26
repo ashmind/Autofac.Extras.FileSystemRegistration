@@ -12,8 +12,8 @@ namespace Autofac.Extras.FileSystemRegistration.Internal {
         private readonly string[] _directoryPaths;
 
         private string _filePattern = "*.*";
-        private Func<FileInfo, bool> _fileFilter = f => f.Extension.Equals("dll", StringComparison.InvariantCultureIgnoreCase)
-                                                     || f.Extension.Equals("exe", StringComparison.InvariantCultureIgnoreCase);
+        private Func<FileInfo, bool> _fileFilter = f => f.Extension.Equals(".dll", StringComparison.InvariantCultureIgnoreCase)
+                                                     || f.Extension.Equals(".exe", StringComparison.InvariantCultureIgnoreCase);
         private Func<Assembly, bool> _assemblyFilter = a => true;
 
         public DirectoryModuleRegistrar([NotNull] ContainerBuilder builder, params string[] directoryPaths) {
