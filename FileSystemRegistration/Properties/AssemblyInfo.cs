@@ -32,7 +32,7 @@ using Autofac.Extras.FileSystemRegistration.Properties;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion(AssemblyInfo.Version)]
 [assembly: AssemblyFileVersion(AssemblyInfo.Version)]
-[assembly: AssemblyInformationalVersion(AssemblyInfo.Version + "-pre")]
+[assembly: AssemblyInformationalVersion(AssemblyInfo.Version)]
 
 namespace Autofac.Extras.FileSystemRegistration.Properties {
     internal static class AssemblyInfo {
