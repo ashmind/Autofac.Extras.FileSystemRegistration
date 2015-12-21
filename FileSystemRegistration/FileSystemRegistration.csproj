@@ -51,6 +51,7 @@
     <Compile Include="RegistrationExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="FileSystemRegistration.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

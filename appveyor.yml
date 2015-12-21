@@ -1,0 +1,14 @@
+before_build:
+- nuget restore
+
+build:
+  publish_nuget: true
+  verbosity: minimal
+
+deploy:
+  - provider: NuGet
+    on:
+      branch: master
+    api_key:
+      secure: K+acArHRTR2l7LuM23TN9Rd1LK/R+cw7P35Dkfu3Q479iGHyJ/XNO/UZf9OeCGyz
+    artifact: /.*\.nupkg/
