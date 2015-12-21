@@ -36,6 +36,6 @@ using Autofac.Extras.FileSystemRegistration.Properties;
 
 namespace Autofac.Extras.FileSystemRegistration.Properties {
     internal static class AssemblyInfo {
-        public const string Version = "0.1.2";
+        public const string Version = "0.1.3";
     }
 }
