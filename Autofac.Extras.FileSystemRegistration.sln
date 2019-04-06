@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 15.0.26114.2
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemRegistration", "FileSystemRegistration\FileSystemRegistration.csproj", "{190F184E-2C0C-4B7D-B28A-4D043ABB01DA}"
 EndProject
 Global
@@ -16,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6D95A90-0A9C-4C27-BCB6-630FD09525CB}
 	EndGlobalSection
 EndGlobal
