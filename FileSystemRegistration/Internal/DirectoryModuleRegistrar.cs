@@ -63,8 +63,7 @@ namespace Autofac.Extras.FileSystemRegistration.Internal {
         [CanBeNull]
         private static Assembly LoadAssemblySafe(FileInfo file) {
             try {
-                var name = new AssemblyName { CodeBase = file.FullName };
-                return Assembly.Load(name);
+                return Assembly.LoadFrom(file.FullName);
             }
             catch (BadImageFormatException) {
                 return null;

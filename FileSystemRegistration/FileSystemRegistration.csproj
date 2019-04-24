@@ -6,7 +6,7 @@
     <Company>Affinity ID</Company>
     <Copyright>Copyright © Affinity ID 2014</Copyright>
     <Description>Provides file system assembly discovery for Autofac (e.g. builder.RegisterAssemblyModulesInDirectories).</Description>
-    <VersionPrefix>1.0.0-pre-02</VersionPrefix>
+    <VersionPrefix>1.0.0-pre-03</VersionPrefix>
     <Authors>Affinity ID; Andrey Shchekin</Authors>
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
   </PropertyGroup>
